@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/db_year_txt"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:background="#c4dded"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginLeft="0.5dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/db_month_txt"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="1dp"-->
+<!--        android:background="#c4dded"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/db_date_txt"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="1dp"-->
+<!--        android:background="#c4dded"/>-->
+
+    <TextView
+        android:id="@+id/db_machine_txt"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:background="#c4dded"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginLeft="0.5dp"/>
+
+    <TextView
+        android:id="@+id/db_watts_txt"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:background="#c4dded"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginLeft="0.5dp"/>
+
+    <TextView
+        android:id="@+id/db_using_time_txt"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:background="#c4dded"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginLeft="0.5dp"/>
+
+</LinearLayout>

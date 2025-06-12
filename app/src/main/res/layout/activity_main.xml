@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/title"
+        android:layout_centerInParent="true"
+        android:text="歡迎來到"
+        android:textSize="75dp" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="能源監控"
+        android:textSize="75dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/app_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APP"
+        android:textSize="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"/>
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true" />-->
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/energy_infomation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="能源資訊"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:onClick="go_to_map"/>
+
+        <Button
+            android:id="@+id/calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:text="家用計算"
+            android:onClick="go_to_family_use"/>
+
+        <Button
+            android:id="@+id/Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:text="統計資料"
+            android:onClick="go_to_statistical"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/Setting"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_marginLeft="1dp"-->
+<!--            android:layout_marginRight="1dp"-->
+<!--            android:text="設定" />-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>
