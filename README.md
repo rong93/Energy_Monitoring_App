@@ -44,6 +44,12 @@
 
 ---
 
+## 📁 專案結構
+
+> 📌 **主要程式碼位置：** [`app/src/main/java/com/example/final_project/`](app/src/main/java/com/example/final_project/)
+
+---
+
 ## 📷 專案截圖（建議補上）
 > 建議截圖包含：
 > - 地圖顯示畫面
