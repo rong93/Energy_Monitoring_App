@@ -21,7 +21,7 @@
 | 平台     | Android (Android Studio)  |
 | 資料庫   | SQLite                    |
 | 資料來源 | 政府資料開放平台（即時爬蟲） |
-| 圖表工具 | MPAndroidChart（或自建圖表）|
+| 圖表工具 | MPAndroidChart 函式庫      |
 
 ---
 
