@@ -44,18 +44,19 @@
 
 ---
 
-## 📁 專案結構
+## 📷 畫面展示
 
-> 📌 **主要程式碼位置：** [`app/src/main/java/com/example/final_project/`](app/src/main/java/com/example/final_project/)
+- 首頁、地圖、機組和淨發電量<br>
+<img src="video/首頁-地圖.gif" width="250"><br><br>
+- 各項能源詳細數據<br>
+<img src="video/各項能源數據.gif" width="250"><br><br>
+- 長條圖介面<br>
+<img src="video/長條圖.gif" width="250"><br><br>
+- 新增、刪除用量<br>
+<img src="video/新增刪除資料.gif" width="250"><br><br>
+- 每月費用計算<br>
+<img src="video/費用計算.gif" width="250"><br><br>
 
----
-
-## 📷 專案截圖（建議補上）
-> 建議截圖包含：
-> - 地圖顯示畫面
-> - 發電量長條圖
-> - 電費紀錄與花費統計畫面
-> - 新增/刪除資料介面
 
 ---
 
